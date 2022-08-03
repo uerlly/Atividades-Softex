@@ -1,0 +1,33 @@
+funcao inicio()
+	{
+		//Declaração de variáveis
+		cadeia op
+		real n1,n2, resultado
+
+		//Entrada e processamento de dados
+		escreva("+, -, * ou /? \n")
+		leia(op)
+		limpa()
+		escreva("insira os valores: \n")
+		leia(n1)
+		limpa()
+		escreva("insira os valores: \n")
+		escreva(n1, " ",op, " ")
+		leia(n2)
+		limpa()
+		
+          se(op=="+"){
+			resultado = n1+n2
+		}senao se (op=="-"){
+			resultado = n1-n2
+		}senao se (op=="*"){
+			resultado = n1*n2
+		}senao se (op=="/"){
+			resultado = n1/n2
+		}senao{
+
+			     resultado = 0.0
+		}
+	     escreva("resultado: \n",n1,op," ",n2," *", resultado)
+	}
+}
