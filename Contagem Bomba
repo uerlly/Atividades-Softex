@@ -1,0 +1,20 @@
+programa
+{
+	inclua biblioteca Util
+	
+	funcao inicio()
+	{
+		//Declaração de variáveis
+		inteiro contador = 60
+		
+		enquanto (contador > 0)
+		{
+			limpa()
+			escreva("Iniciando contagem regressiva: ", contador)
+
+			contador = contador - 1
+			Util.aguarde(1000)
+
+		}
+		limpa()
+		escreva("BOOOOOOOOOMMMMMMMMMMMM!")
